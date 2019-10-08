@@ -1,0 +1,16 @@
+:root{
+    --purple-color: #3a0088;
+    --t-purple: #930077;
+    --pink:#e61c5d;
+}
+
+body{
+    background-color: var(--purple-color);
+}
+
+.main-container{
+    width:800px;
+    height: 800px;
+    border: 2px solid var(--t-purple);
+    margin:0 auto;
+}
