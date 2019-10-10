@@ -9,8 +9,45 @@ body{
 }
 
 .main-container{
+    position: relative;
     width:800px;
     height: 800px;
     border: 2px solid var(--t-purple);
     margin:0 auto;
+    font-family: "Indie Flower", cursive;
+    color:var(--pink);
+    font-size: 1.5rem;
+} 
+
+h1{
+    position:absolute;
+    display:inline block;
+    margin: 0;
+    bottom: 5%;
+    left: 20%;
+   
+}
+
+.cloud1{ 
+    position:absolute;
+    bottom: 92%;
+    left: 5%;
+}
+
+.cloud2{ 
+    position:absolute;
+    bottom: 85%;
+    left: 33%;
+}
+
+.cloud3{ 
+    position:absolute;
+    bottom: 87%;
+    left: 77%;
+}
+
+.mountain{
+    position:absolute;
+    bottom: 20%;
+    left: 15%;
 }
